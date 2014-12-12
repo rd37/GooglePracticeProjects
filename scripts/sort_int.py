@@ -2,8 +2,9 @@
 Created on Dec 10, 2014
 
 @author: ronaldjosephdesmarais
+only works for small integer values due to dict hash function
 '''
-ints = [5,8,1,7,4,13,12,4,8]
+ints = [5,8,1,7,4,13,12,4,8,62,63,33,42,51]
 
 print "------use python sorted------"
 print sorted(ints)
